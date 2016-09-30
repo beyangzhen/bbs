@@ -7,6 +7,8 @@
 <struts>
 	
 	<!-- <constant name="struts.devMode" value="true" /> --> <!-- 加了这句话会出错 -->
+	<!-- <constant name="struts.action.extension" value="action,do,,"></constant> --><!-- 设置访问action的扩展名 -->
+        <!-- <constant name="struts.enable.DynamicMethodInvocation" value="ture"></constant> --><!-- 动态方法调用，默认false -->
 	
 	<!-- 配置访问的.properties文件的前缀名 -->
 	<constant name="struts.custom.i18n.resources" value="bbs" />
